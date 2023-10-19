@@ -30,7 +30,7 @@ function validaFormulario( nome, eMail, mens )
 	}
 	if ( !valMsgn )
 	{
-		mensagem += "Campo de mensagem deve ser preenchido !\n";
+		mensagem += "Campo de mensagem deve ser preenchido corretamente!\n";
 		erro = true;
 	}
 	if ( erro )
@@ -39,7 +39,7 @@ function validaFormulario( nome, eMail, mens )
 		FrmPg4.TxNome.focus();
 	}
 	else
-		alert( "Formulário validado com sucesso !" );
+		alert( "Formulário foi validado com sucesso !" );
 }
 
 function LimpaCampos()
