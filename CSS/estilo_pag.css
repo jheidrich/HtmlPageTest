@@ -1,0 +1,550 @@
+/*                            Florianópolis, 12 de Maio de 2015                            
+                      Atividade Prática de Web Design - estilo_pag.css                          
+                                 Aluno - Jeferson Heidrich Sagaz                            
+          Superior de Tecnoligia em Análise e Desenvolvimento de Sistemas 1º Semestre        
+					   Arquivo de configuração de estilo de páginas em css */
+
+#pagina{										/* Ajustes da margem, cor e tamanho do topo da página */
+			background-color:#DCDCDC;
+			max-width: 900px;
+			margin: auto;
+			padding: 5px 10px;
+		}	
+#pagina2{										/* Ajustes da margem, cor e tamanho do topo da página */
+			background-color:#DCDCDC;
+			width: 900px;
+			height: 143px;
+			margin: auto;
+			margin-bottom: 10pt;
+			padding: 5px 10px;
+		}		
+#pagina3{										/* Ajustes da margem, cor e tamanho do topo da página */
+			background-color:#DCDCDC;
+			width: 900px;
+			height: 155px;
+			margin: auto;
+			margin-bottom: 10pt;
+			padding: 5px 10px;
+		}			
+#baseFtEsq {
+				width: 60%;
+				height: 320px;
+				float: left;
+				background-color: #FFFFFF;
+				margin-top: 5pt;
+		   }	
+#baseFtDir {
+				width: 40%;
+				height: 320px;
+				float: left;
+				background-color: #FFFFFF;
+				margin-top: 5pt;
+		   }	
+#baseFormPg4{
+				width: 46%;
+				height:332px;
+				float: left;
+				background-color: #FFFFFF;
+				margin-top: 1pt;
+				margin-bottom: 7pt;
+				padding-left: 10px;
+				padding-top: 5px;
+				padding-right: 10px;
+				padding-bottom: 5px;
+				border: 2px solid #000000;
+			}	
+#baseFotoPg4Dir{
+				width: 45%;
+				height:332px;
+				float: right;
+				background-color: #FFFFFF;
+				margin-top: 1pt;
+				padding-top: 1pt;
+				padding-right: 20pt;
+				padding-bottom: 5px;
+			   }				
+button {
+		margin-top:6pt;
+		margin-left:15pt;
+	  }			
+#baseTxtPg1Esq {
+				width: 33%;
+				height: 235px;
+				float: left;
+				background-color: #FFFFFF;
+				margin-top: 5pt;
+			   }
+#baseTxtPg2Esq {
+				width: 33%;
+				height: 395px;
+				float: left;
+				background-color: #FFFFFF;
+				margin-top: 5pt;
+			   }	
+#baseTxtPg3Esq {
+				width: 33%;
+				height: 450px;
+				float: left;
+				background-color: #FFFFFF;
+				margin-top: 5pt;
+			   }				   
+#CaixaTextoPg3Esq {
+					width: 32%;
+					height: 365px;
+					float: left;
+					background-color: #FFFFFF;
+					margin-top: 6pt;
+					margin-right: 16px;
+					margin-bottom: 5pt;
+					border: 1px solid #C0C0C0;
+				  }		
+#CaixaTextoPg3Cent {
+					width: 32%;
+					height: 365px;
+					float: left;
+					background-color: #FFFFFF;
+					margin-top: 6pt;
+					margin-bottom: 5pt;
+					border: 1px solid #C0C0C0;
+			      }		
+#CaixaTextoPg3Dir {
+					width: 32%;
+					height: 365px;
+					float: right;
+					background-color: #FFFFFF;
+					margin-top: 6pt;
+					margin-bottom: 5pt;
+					border: 1px solid #C0C0C0;
+			      }			
+#CxTextoPg3 h3 {
+				color: #2E8B57;
+				text-align: center;
+				margin-bottom: 1pt;
+				margin-top: 5pt;
+			  }	
+.ImgCxTxtPg3{
+				margin-left: 10pt;
+				margin-top: 10pt;
+				margin-bottom: 2pt;
+				width: 90%; 
+				height: 47%;
+				
+			}					  
+#CxTxtIntEsq {
+				width: 285px;
+				height: 220px;
+				margin-left: 2px;
+				margin-right: 2px;
+				margin-top: 4px;
+				margin-bottom: 4px;
+				background-color: #DCDCDC;
+			 }			
+#CxTxtIntPg2 {
+				width: 285px;
+				height: 380px;
+				margin-left: 2px;
+				margin-right: 2px;
+				margin-top: 4px;
+				margin-bottom: 4px;
+				background-color: #DCDCDC;
+			 }		
+#CxTxtIntPg3 {
+				width: 285px;
+				height: 445px;
+				margin-left: 2px;
+				margin-right: 2px;
+				margin-top: 4px;
+				margin-bottom: 4px;
+				background-color: #DCDCDC;
+			 }					 
+#baseTxtPg1Centr {
+					width: 33%;
+					height: 235px;
+					float: left;
+					background-color: #FFFFFF;
+					margin-top: 5pt;
+			     }	
+#baseTxtPg2Centr {
+					width: 33%;
+					height: 395px;
+					float: left;
+					background-color: #FFFFFF;
+					margin-top: 5pt;
+			     }	
+#baseTxtPg3Centr {
+					width: 33%;
+					height: 450px;
+					float: left;
+					background-color: #FFFFFF;
+					margin-top: 5pt;
+			     }					 
+#CxTxtIntCentr {
+				width: 295px;
+				height: 220px;
+				margin-left: 2px;
+				margin-right: 2px;
+				margin-top: 4px;
+				margin-bottom: 4px;
+				background-color: #DCDCDC;
+			   }			   
+#CxTxtIntCentrPg2 {
+					width: 295px;
+					height: 380px;
+					margin-left: 2px;
+					margin-right: 2px;
+					margin-top: 4px;
+					margin-bottom: 4px;
+					background-color: #DCDCDC;
+				  }		
+#CxTxtIntCentrPg3 {
+					width: 295px;
+					height: 445px;
+					margin-left: 2px;
+					margin-right: 2px;
+					margin-top: 4px;
+					margin-bottom: 4px;
+					background-color: #DCDCDC;
+				  }					  
+#baseTxtPg1Dir {
+				width: 33%;
+				height: 235px;
+				float: right;
+				background-color: #FFFFFF;
+				margin-top: 5pt;
+			   }	
+#baseTxtPg2Dir {
+				width: 33%;
+				height: 395px;
+				float: right;
+				background-color: #FFFFFF;
+				margin-top: 5pt;
+			   }	
+#baseTxtPg3Dir {
+				width: 33%;
+				height: 450px;
+				float: right;
+				background-color: #FFFFFF;
+				margin-top: 5pt;
+			   }				   
+#CxTxtIntDir {
+				width: 285px;
+				height: 220px;
+				margin-left: 2px;
+				margin-right: 2px;
+				margin-top: 4px;
+				margin-bottom: 4px;
+				background-color: #DCDCDC;
+			 }	
+#CxTxtIntEsq p {
+				margin-left: 8pt;
+				margin-right: 8pt;
+				margin-top: 4pt;
+				margin-bottom: 15pt;
+				color: #FF4500;
+				font-size: 8pt;
+				font-family: Verdana;
+				text-align: center;
+			  }		
+#CxTxtIntCentr p {
+					margin-left: 8pt;
+					margin-right: 8pt;
+					margin-top: 4pt;
+					margin-bottom: 4pt;
+					color: #FF4500;
+					font-size: 8pt;
+					font-family: Verdana;
+					text-align: center;
+				}	
+#CxTxtIntDir p {
+				margin-left: 8pt;
+				margin-right: 8pt;
+				margin-top: 4pt;
+				margin-bottom: 4pt;
+				color: #FF4500;
+				font-size: 8pt;
+				font-family: Verdana;
+				text-align: center;
+			  }		
+.ParCxTxtInfPg2 {
+					margin-left: 8pt;
+					margin-right: 8pt;
+					margin-top: 4pt;
+					margin-bottom: 4pt;
+					color: #000000;
+					font-size: 9pt;
+					font-family: Verdana;
+					text-align: justify;
+					text-indent: 20px;
+			    }	
+#TitCxTxtInf{
+				margin-top: 4pt;
+				margin-bottom: 8pt;
+				color: #FF4500;
+				font-size: 10pt;
+				font-family: Verdana;
+				text-align: center;
+			}				
+#textoSuperior {
+				text-align: center;
+				margin-bottom: 0pt;
+				margin-top: 58pt;
+				font-family: arial-black;
+				font-size: 25pt;
+				color: #FF3030;
+			  }		
+#baseFotoPg1{
+				margin-top: 1pt;
+				margin-bottom: 2pt;
+				margin-left: 15pt;
+				margin-right: 4pt;
+				color: #000000;
+				font-size: 10pt;
+				font-family: Verdana;
+				text-align: justify;
+				text-indent: 20px;
+			}	
+#TitulobaseFotoPg1{
+					margin-top: 1pt;
+					margin-bottom: 6pt;
+					text-align: center;
+					color: #000000;
+					font-size: 10pt;
+					font-family: Verdana;
+				  }
+body{											/* Ajustes do tamanho da imagem de fundo */
+		margin: 0pt;
+		padding: 0pt;
+	}		
+.menu{											/* Ajustes das listas do menu */
+		list-style-type: none;
+		text-shadow: 5px 2px 8px;
+	 }
+.menuEsquerda {
+				margin-left: 2pt;
+				padding-bottom: 15px;
+				padding-top: 15px;
+				padding-left: 5px;
+				padding-right: 3px;
+				text-decoration: none;
+			  }
+.menuMeio{
+			margin-left:2pt;
+			padding-bottom: 15px;
+			padding-top: 15px;
+			padding-left: 5px;
+			padding-right: 3px;
+			text-decoration: none;
+		 }	
+.MenuMeio2 {
+				margin-left: 2pt;
+				padding-bottom: 15px;
+				padding-top: 15px;
+				padding-left: 5px;
+				padding-right: 3px;
+				text-decoration: none;
+			}
+.menuDireita{
+				margin-left:2pt;
+				padding-bottom: 15px;
+				padding-top: 15px;
+				padding-left: 5px;
+				padding-right: 3px;
+				text-decoration: none;
+			}		 		 
+.menu li{											/* Ajustes das listas do menu */
+		list-style-position: inside;
+		float:left;
+		margin-top: none;
+		margin-bottom: 1pt;
+		margin-left: 5pt;
+		text-align: left;
+	  }
+
+ul{												/* Estilo de fonte e tamanho de fonte para os ítens do menu */
+	font-family: 'Fjalla One', sans-serif;
+	font-size:19pt;
+  }	  
+a {
+	color:#D2691E;
+  }  
+/*a:visited{
+			color:#CD6600;
+		 }	  */
+a:hover{
+		background-color: #00CED1;
+		color: #000000;
+	   }
+.ImgLogo{										/* Borda e definições para a imagem do topo da página*/	
+			margin-left: 2pt;
+			margin-top: 2pt;
+			margin-bottom: 2pt;
+			width: 20%; 
+			height: 20%;
+			border: 1px solid #000000;
+		} 	
+.ImgLogoPg2{
+				margin-left: 2pt;
+				margin-top: 2pt;
+				margin-bottom: 2pt;
+				width: 20%; 
+				height: 90%;
+				border: 1px solid #000000;
+			}	
+.ImgLogoPg3{
+				margin-left: 2pt;
+				margin-top: 2pt;
+				margin-bottom: 2pt;
+				width: 20%; 
+				height: 80%;
+				border: 1px solid #000000;
+			}					
+.estImg{										/* Margem e tamanho para a imagem */
+		margin-left: 38pt;
+		margin-top: 5pt;
+		margin-bottom: 1pt;
+		width: 800px; 
+		height: 200px;
+		border: 2px solid #000000;
+	   }		
+#Texto_Esq {
+				width: 20%;
+				height: 1243px;
+				float: left;
+				background-color: #4169E1;
+		   }
+#fonteFotoPg1 {
+				color:#000000;
+				text-align: center;
+				font-family: Courier New, Monospace;
+				font-size:10pt;
+				margin-top:0pt;
+			  }		
+.ImgCxTxt{
+			margin-left: 10pt;
+			margin-top: 5pt;
+			margin-bottom: 2pt;
+			width: 90%; 
+			height: 70%;
+			border: 1px solid #000000;
+		 }		
+.ImgCxTxtPg3{
+				margin-left: 10pt;
+				margin-top: 5pt;
+				margin-bottom: 2pt;
+				width: 90%; 
+				height: 40%;
+				border: 1px solid #000000;
+			}			 
+#CxTextoPg2 {										/* Definição de altura e comprimento da caixa de texto na página 2 */
+				width: 100%;
+				height: 2480px;
+				float: left;
+				background-color: #FFFFFF;
+				margin-top: 11pt;
+			}	
+#CxTextoPg3{
+				width: 100%;
+				height: 2250px;
+				float: left;
+				background-color: #FFFFFF;
+				margin-top: 10pt;
+			}	
+#CxTextoPg4{
+				width: 100%;
+				height: 380px;
+				float: left;
+				background-color: #FFFFFF;
+				margin-top: 10pt;
+			}						
+#TextoBaseFigPg2{										/* Definição das margens, tamanho, tipo e alinhamento de fonte para os parágrafos na página 2 */
+					margin-top: 2pt;
+					margin-left: 2pt;
+					margin-bottom: 1pt;
+					text-align: left;
+					color: #000000;
+					font-family: Courier New, Monospace;
+					font-size: 10pt;
+				}	
+#TextoBaseFigPg3{										/* Definição das margens, tamanho, tipo e alinhamento de fonte para os parágrafos na página 2 */
+					margin-top: 11pt;
+					margin-left: 0pt;
+					margin-bottom: 1pt;
+					text-align: left;
+					color: #000000;
+					font-family: Courier New, Monospace;
+					font-size: 8pt;
+				}						
+hr {													/* Definição da cor do hr */
+	color: #90EE90;
+  }		
+#TextoH1 {										/* Definição dos padrões dos títulos em h1 na página 2 */
+				text-align: center;
+				color: #7D26CD;
+				margin-bottom: 2pt;
+				margin-top: 2pt;
+			  }  
+#ParCxTextoPg2{										/* Definição das margens, tamanho, tipo e alinhamento de fonte para os parágrafos na página 2 */
+				text-align: justify;
+				text-indent: 20px;
+				font-family: verdana;
+				font-size: 11pt;
+				margin-bottom: 1pt;
+				margin-left: 2pt;
+				margin-right: 2pt;
+				margin-top: 1pt;
+			 }		
+.estImgPg2Esq {
+				margin-left: 5pt;
+				margin-top: 2pt;
+				margin-bottom: 1pt;
+				margin-right: 4pt;
+				width: 20%; 
+				height: 125px;
+				border: 1px solid #000000;			 
+			  }	
+.estImgPg4Dir {
+				margin-left: none;
+				margin-top: none;
+				margin-bottom: none;
+				margin-right: 4pt;
+				width: 100%; 
+				height: 99%;
+				border: 2px solid #A9A9A9;			 
+			  }				  
+#CxTextoPg2 h2 {
+				text-align: center;
+				color: #006400;
+				margin-left: 5pt;
+				margin-right: 2pt;
+				margin-bottom: 4pt;
+				margin-top: 4pt;
+			  }  			  
+.estImgPg2Centro {
+					margin-left: 160pt;
+					margin-top: 8pt;
+					margin-bottom: 5pt;
+					width: 50%; 
+					height: 235px;
+					border: 2px solid #000000;			 
+				 }	
+#CxTextoPg2 ol {
+				margin-top: 5pt;
+				margin-left: 25pt;
+				color: #0000FF;
+				font-family: Courier New, Monospace;
+				font-size:12pt;
+				list-style: upper-roman;
+				text-align: justify;
+			  }				 
+@media screen and (max-width: 550px) and (min-width: 400px) {
+																#baseTxtPg1Dir, #CxTxtIntDir, #baseFtDir { float:left; } 
+																.estImg { width:700px; } 
+																#pagina { max-width:700px; } 
+																.menu li { list-style-position: outline; } 
+															}			
+@media screen and (max-width: 400px) {
+										#baseTxtPg1Dir, #CxTxtIntDir, #baseFtDir { float:left; } 
+										.estImg { width:700px; } 
+										#pagina { max-width:700px; } 
+										.menu li { list-style-position: outline; } 
+									 }							

@@ -1,0 +1,61 @@
+<!--                            Florianópolis, 12 de Maio de 2015                            -->
+<!--                  Atividade Prática de Web Design - Pag_2.html                            -->
+<!--                             Aluno - Jeferson Heidrich Sagaz                              -->
+<!--      Superior de Tecnoligia em Análise e Desenvolvimento de Sistemas 1º Semestre         -->
+<!DOCTYPE html>
+<html>
+	<a name="topo"></a>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="../CSS/estilo_pag.css" type="text/css" rel="stylesheet" media="all" >
+		<title>Atividade Prática Pg 04- Web Design - 12/05/2015</title>
+		<meta charset = "utf-8">
+		<script type="text/javascript" src="../Include/ScriptJava.js"></script>
+	</head>	
+	<body onload="SetarNome();">
+		<div id="pagina2">
+			<img class="ImgLogoPg2" src="../Images/processadorespentium.jpg" align="left">
+			<nav>
+				<ul class="menu">					<!--  Listas do Menu  -->
+					<li><a class="menuEsquerda" href = "../Index.html">Home</a></li>
+					<li><a class="menuMeio" href = "Pag_2.html">A História da Informática</a></li>
+					<li><a class="MenuMeio2" href = "Pag_3.html">Os Computadores no Início</a></li>
+					<li><a class="menuDireita" href = "Pag_4.html">Contato</a></li>
+				</ul>
+			</nav>
+			<p id="textoSuperior">Contato</p>
+			<div id="CxTextoPg4">
+				<p id="TextoBaseFigPg2"><b>Contato</b></p><hr>
+				<div id="baseFormPg4">
+					<form id="FrmPg4" method="POST">
+						<label>Nome: <input type="text" name="TxNome" size="65"></label><br>
+						<label>E-Mail: <input type="text" name="E_Mail" size="65"></label><br>
+						<label>Deixe aqui sua Mensagem:<textarea name="Mensagem" rows="11" cols="48"></textarea></label><br>
+						<button id="BtLimpar" onclick="LimpaCampos();">Limpar</button>
+						<button id="BtEnviar" onclick="validaFormulario( TxNome.value, E_Mail.value, Mensagem.value );">Enviar</button> 
+					</form>
+				</div>
+				<div id="baseFotoPg4Dir">
+					<img class="estImgPg4Dir" src="../Images/AmstradCPC6128.jpg" align="center">
+					<p id="fonteFotoPg1">O Amstrad CPC 464, de 1984</p>
+				</div>
+			</div>											<!-- Fim da div CxTextoPg4 -->
+			<div id="baseTxtPg1Esq">
+				<div id="CxTxtIntEsq">
+				
+				</div>
+			</div>
+			<div id="baseTxtPg1Centr">
+				<div id="CxTxtIntCentr">
+				
+				</div>
+			</div>
+			<div id="baseTxtPg1Dir">
+				<div id="CxTxtIntDir">	
+				
+				</div>
+			</div>	
+		</div>												<!-- Fim da div Pagina2 -->
+	</body>
+</html>	

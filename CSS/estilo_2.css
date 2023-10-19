@@ -1,0 +1,11 @@
+/*                            Florianópolis, 12 de Maio de 2015                            
+                      Atividade Prática de Web Design - estilo_pag.css                          
+                                 Aluno - Jeferson Heidrich Sagaz                            
+          Superior de Tecnoligia em Análise e Desenvolvimento de Sistemas 1º Semestre        
+					   Arquivo de configuração de estilo de páginas em css */
+@media screen and (max-width: 760px) and (min-width: 550px) {
+																#baseTxtPg1Dir, #CxTxtIntDir, #baseFtDir { float:left; } 
+																.estImg { width:700px; } 
+																#pagina { max-width:700px; } 
+																.menu li { list-style-position: outline; } 
+															}
